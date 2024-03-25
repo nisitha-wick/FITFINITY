@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<!--Head-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitfinity.com</title>
+  <link rel="stylesheet" href="Coursework.css">
+  <script defer src="script.js"></script>
+</head>
+
+<!--Body-->
+<body class="body">
+
+  <!--Header-->  
+  <header>
+    <div class="nav-barlogo"></div>
+    <div class="nav-bar">
+      <a href="MainPage.html" class="logo">FITFINITY.</a>
+      <div class="navigation">
+        <a href="Gallery.html">Gallery</a>
+        <a href="Quiz.html">Quiz</a>
+        <a href="aboutus.html">About</a>
+        <a href="MyListPage.html">Leaderboard</a>
+        <a  class="darkmodebutton" onclick="changeColor()">Dark Mode</a>
+      </div>
+    </div>
+  </header>
+  <!--The Newsletter subscription form-->
+  <div class="wrapper">
+    <div class="top">
+      
+      <div class="info">
+        Subscribe to our Newsletter.<br>
+        <p>get the latest updates and promotions</p>
+      </div>
+    </div>
+    <div class="bottom">
+      
+      <form id="newsletter-form" action="#">
+        <div class="inputcontrol">
+          <input name="name" id="nameInput" placeholder="Enter your name" type="text">
+          <div class="error"></div>
+        </div>
+        <div class="inputcontrol">
+          <input name="email" id="emailInput" placeholder="Enter your email" type="text">
+          <div class="error"></div>
+        </div>
+        <div class="inputcontrol">
+          <input class="subscribebtn" type="submit" value="Subscribe">
+        </div>
+      </form>
+      <div class="subfooter">
+        Don't worry, we don't spam
+      </div>
+    </div>
+  </div>
+  <div class="subscribednote">
+    <h1 id="subscribednotetext"></h1>
+  </div>
+  <!--My List Page Content-->
+  <div class="mylistpagecontent">
+    <video autoplay loop muted plays-inline>
+      <source src="Cover Page Video/Output1.mp4" type="video/webm">
+    </video>
+    <div class="midalign">
+      <h1>Forever <span>Fit</span> , Forever <span>Strong</span></h1>
+      <h2>Worldwide Leaderboard</h2>
+    </div>
+  </div>
+
+
+
+
+
+  <!--Newsletter Subscription Button-->
+  <div class="newsletter-button">
+  <a >Subscribe to our newsletter</a>
+  </div>
+
+  <!--Footer-->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="row">
+        <div class="footer-col">
+          <h4>company</h4>
+          <ul>
+            <li><a href="aboutus.html">about us</a></li>
+            <li><a href="commentform.html">Comment form</a></li>
+            <li><a href="#">privacy policy</a></li>
+            <li><a href="Editor - Vinod.html">editor's Page</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>get help</h4>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">shipping</a></li>
+            <li><a href="#">returns</a></li>
+            <li><a href="#">order status</a></li>
+            <li><a href="#">payment options</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>online shop</h4>
+          <ul>
+            <li><a href="Ecommerce.html">T-shirts</a></li>
+            <li><a href="Ecommerce.html">Bottles</a></li>
+            <li><a href="Ecommerce.html">Duffel Bags</a></li>
+            <li><a href="Ecommerce.html">Protein Powder</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>follow us</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+ </footer>
+</body>

@@ -1,0 +1,148 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="Coursework1.css">
+    <script defer src="signup.js"></script>
+</head>
+<body>
+    <!--Header-->  
+  <header>
+    <div class="nav-barlogo"></div>
+    <div class="nav-bar">
+      <a href="" class="logo">FITFINITY.</a>
+      <div class="navigation">
+        <a href="Gallery.html">Gallery</a>
+        <a href="Quiz.html">Quiz</a>
+        <a href="Ecommerce.html">Shop</a>
+        <a href="aboutus.html">About</a>
+        <a href="MyListPage.html">Leaderboard</a>
+      </div>
+    </div>
+  </header>
+
+    <div class="container">
+        <video autoplay loop muted plays-inline class="back-video">
+            <source src="Cover Page Video/Output1.mp4" type="video/mp4">
+        </video>
+        <form id="form" action="/">
+            <h1>Sign Up</h1>
+			
+			<div class="input-control">
+                <label for="First Name">First Name</label>
+                <input id="firstname" name="firstname" type="text">
+                <div class="error"></div>
+            </div>
+			<div class="input-control">
+                <label for="Last Name">Last Name</label>
+                <input id="lastname" name="lastname" type="text">
+                <div class="error"></div>
+            </div>
+			<div class="input-control">
+                <label for="Age">Age</label>
+                <input id="age" name="age" type="number">
+                <div class="error"></div>
+            </div>
+			<div class="input-control">
+				<label for="Gender">Gender:</label>
+				<select class="selector" id="gender" name="gender">
+					<option value=""></option>
+					<option value="male">Male</option>
+					<option value="female">Female</option>
+					<option value="prefernotsay">Prefer not say</option>
+				</select><br>
+			</div>
+			<div class="radio">
+				<label>Have you tried any fitness plans before?</label><br>
+				<input type="radio" name="Gender">Yes
+				<input type="radio" name="Gender">No
+			</div>  
+			<div>
+				<p> Select any preferences!</p>
+				<!-- Create a div element to hold the preferences -->
+				<div id="preferencecontainer">
+					<div class="preference">Eat</div>
+					<div class="preference">Sleep</div>
+					<div class="preference">Rest</div>
+					<div class="preference">Run</div>
+					<div class="preference">Walk</div>
+				</div>
+			</div>
+            <div class="input-control">
+                <label for="username">Username</label>
+                <input id="username" name="username" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password">Password</label>
+                <input id="password"name="password" type="password">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password2">Confirm password</label>
+                <input id="password2"name="password2" type="password">
+                <div class="error"></div>
+            </div>
+			
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+
+    <!--Footer-->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="row">
+        <div class="footer-col">
+          <h4>company</h4>
+          <ul>
+            <li><a href="aboutus.html">about us</a></li>
+            <li><a href="commentform.html">Comment Form</a></li>
+            <li><a href="#">privacy policy</a></li>
+            <li><a href="Editorspage_nisitha.html">editor's Page</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>get help</h4>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">shipping</a></li>
+            <li><a href="#">returns</a></li>
+            <li><a href="#">order status</a></li>
+            <li><a href="#">payment options</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>online shop</h4>
+          <ul>
+            <li><a href="#">watch</a></li>
+            <li><a href="#">bag</a></li>
+            <li><a href="#">shoes</a></li>
+            <li><a href="#">dress</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>follow us</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+ </footer>
+
+</body>
+</html>

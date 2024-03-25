@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce</title>
+    <link rel="stylesheet" href="ecommercestyle.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class ="nav container">
+            <div class="nav-barlogo"></div>
+    <div class="nav-bar">
+      <a href="MainPage.html" class="logo">FITFINITY.</a>
+        <div class="navigation">
+          <a href="Gallery.html">Gallery</a>
+          <a href="Quiz.html">Quiz</a>
+          <a href="aboutus.html">About</a>
+          <a href="MyListPage.html">Leaderboard</a>
+        </div>
+    </div>
+    
+
+    <!--Cart icon-->
+            <i class='bx bxs-shopping-bag' id="cart-icon"></i>
+            <!--Cart-->
+            <div class="cart">
+                <h2 class="cart-title">Your Cart</h2>
+                <!--cart content-->
+                <div class="cart-content">
+
+                </div>
+                <!--total-->
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">$40</div>
+                </div>
+                <!--buy-->
+                <button type="button" class="btn-buy">Buy Now</button>
+                <!--cart close-->
+                <i class='bx bx-x' id="close-cart"></i>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="buttons">
+            <span class="btn active" onclick="document.getElementById('text').style.fontSize = '1em'">A</span>
+            <span class="btn" onclick="document.getElementById('text').style.fontSize = '1.5em'">A</span>
+            <span class="btn" onclick="document.getElementById('text').style.fontSize = '2em'">A</span>
+        </div>
+
+        
+    <!--Shop-->
+    <section class="Shop container">
+        <div class="content" id = "text">
+        <h2 class="section-title">Shop products</h2>
+        <div class="shop-content">
+            <div class="product-box">
+                <img src="product imgs/product1.jfif" alt="" class="product-img">
+                <h2 class="product-title">ADIDAS NMD R1</h2>
+                <span class="price">$40</span>
+                <i class='bx bx-shopping-bag add-cart' id="cart-icon" ></i>
+            </div>
+
+            <div class="product-box">
+                <img src="product imgs/product2.jfif" alt="" class="product-img">
+                <h2 class="product-title">Training Tee</h2>
+                <span class="price">$30</span>
+                <i class='bx bx-shopping-bag add-cart' id="cart-icon" ></i>
+            </div>
+
+            <div class="product-box">
+                <img src="product imgs/product3.jfif" alt="" class="product-img">
+                <h2 class="product-title">FC BAYERN 21/22 HOME Tee</h2>
+                <span class="price">$60</span>
+                <i class='bx bx-shopping-bag add-cart' id="cart-icon" ></i>
+            </div>
+
+            <div class="product-box">
+                <img src="product imgs/product4.jfif" alt="" class="product-img">
+                <h2 class="product-title">Water Bottle</h2>
+                <span class="price">$20</span>
+                <i class='bx bx-shopping-bag add-cart' id="cart-icon" ></i>
+            </div>
+
+            <div class="product-box">
+                <img src="product imgs/product5.jfif" alt="" class="product-img">
+                <h2 class="product-title">3 Stripe Cap</h2>
+                <span class="price">$10</span>
+                <i class='bx bx-shopping-bag add-cart' id="cart-icon" ></i>
+            </div>
+
+            <div class="product-box">
+                <img src="product imgs/product6.jfif" alt="" class="product-img">
+                <h2 class="product-title">Duffle Bag</h2>
+                <span class="price">$40</span>
+                <i class='bx bx-shopping-bag add-cart' id="cart-icon" ></i>
+            </div>
+
+            <div class="product-box">
+                <img src="product imgs/product7.jfif" alt="" class="product-img">
+                <h2 class="product-title">AEROREADY GLOVES</h2>
+                <span class="price">$25</span>
+                <i class='bx bx-shopping-bag add-cart' id="cart-icon" ></i>
+            </div>
+
+            <div class="product-box">
+                <img src="product imgs/product8.jfif" alt="" class="product-img">
+                <h2 class="product-title">CREW Socks</h2>
+                <span class="price">$5</span>
+                <i class='bx bx-shopping-bag add-cart' id="cart-icon" ></i>
+            </div>
+        </div>
+        </div>
+
+        <footer class="footer">
+            <div class="footer-container">
+              <div class="row">
+                <div class="footer-col">
+                  <h4>company</h4>
+                  <ul>
+                    <li><a href="aboutus.html">about us</a></li>
+                    <li><a href="commentform.html">Comment Form</a></li>
+                    <li><a href="#">privacy policy</a></li>
+                    <li><a href="Editorspage_sankalpa.html">editor's Page</a></li>
+                  </ul>
+                </div>
+                <div class="footer-col">
+                  <h4>get help</h4>
+                  <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">shipping</a></li>
+                    <li><a href="#">returns</a></li>
+                    <li><a href="#">order status</a></li>
+                    <li><a href="#">payment options</a></li>
+                  </ul>
+                </div>
+                <div class="footer-col">
+                  <h4>online shop</h4>
+                  <ul>
+                    <li><a href="#">watch</a></li>
+                    <li><a href="#">bag</a></li>
+                    <li><a href="#">shoes</a></li>
+                    <li><a href="#">dress</a></li>
+                  </ul>
+                </div>
+                <div class="footer-col">
+                  <h4>follow us</h4>
+                  <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+         </footer>    
+    </section>
+    <!--JS-->
+    <script src="ecommerce.js"></script>
+    <script>
+        let buttons = document.querySelector('.buttons')
+        ;
+        let btn = buttons.querySelectorAll('.btn');
+        for(var i = 0; i < btn.length; i++){
+            btn[i].addEventListener('click', function() {
+                let current = document.getElementsByClassName('active');
+                current[0].className = current[0].className.replace("active", "");
+                this.className += " active";
+            })
+        }
+    </script>
+</body>
+</html>
